@@ -14,7 +14,7 @@ Se diseñó e implementó una arquitectura moderna de datos del tipo **ELT (Extr
 ### Componentes y Justificación:
 * **Cloud Storage (Data Lake):** Repositorio centralizado donde las sucursales suben sus archivos CSV diarios de forma segura y económica.
 * **Cloud Scheduler:** Temporizador serverless encargado de disparar el proceso de forma automática todas las noches a las 23:30.
-* **Cloud Workflows (Orquestador):** Actúa como el "Control-M" de la nube, coordinando la ejecución de los servicios y manejando posibles errores de red.
+* **Cloud Workflows (Orquestador):** Actúa coordinando la ejecución de los servicios y manejando posibles errores de red.
 * **Cloud Dataflow (Procesamiento):** Motor encargado de leer los datos crudos, limpiar formatos de fecha corruptos, estandarizar nombres de productos y unificar la información en paralelo.
 * **BigQuery (Data Warehouse):** Base de datos analítica masiva donde se almacena todo el histórico detallado de ventas, permitiendo consultas SQL en milisegundos.
 * **Looker Studio (BI):** Tablero interactivo conectado a BigQuery para la visualización en tiempo real de las métricas clave de negocio.
