@@ -1,0 +1,4 @@
+id_ticket,fecha_venta,producto,cantidad,precio_unitario,sucursal
+T001,2026-05-15,Café Americano,2,2.50,Sucursal Centro
+T002,2026-05-15,Capuccino Grande,1,3.75,Sucursal Centro
+T003,2026-05-15,Croissant Jamón,3,3.00,Sucursal Centro
